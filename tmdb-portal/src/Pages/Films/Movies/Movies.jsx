@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { SelectFilters } from "../../components/SelectFilters/SelectFilters";
+import { SelectFilters } from "../../../components/SelectFilters/SelectFilters";
 import { Link } from "react-router-dom";
-import ExactFilm from "../../components/ExactFilm/ExactFilm";
-import { Search } from "../../components/Search/Search";
+import ExactFilm from "../../../components/ExactFilm/ExactFilm";
+import { Search } from "../../../components/Search/Search";
 import { Pagination } from "@mui/material";
 import "./movies.style.css";
-import { Header } from "../../components/Header/Header";
+import { Header } from "../../../components/Header/Header";
 
 export function Movies() {
   const [films, setFilms] = useState([]);

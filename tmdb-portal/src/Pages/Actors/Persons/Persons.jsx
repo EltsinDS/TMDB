@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Pagination } from "@mui/material";
 import { Link } from "react-router-dom";
-import { Search } from "../../components/Search/Search";
+import { Search } from "../../../components/Search/Search";
 import "./persons.style.css";
-import { Header } from "../../components/Header/Header";
+import { Header } from "../../../components/Header/Header";
 
 export const Persons = () => {
   const [persons, setPersons] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { setMovieExactActionCreator } from "../../store/actions";
+import { setMovieExactActionCreator } from "../../../store/actions";
 import "./movieDetails.style.css";
 
 export function MovieDetails() {

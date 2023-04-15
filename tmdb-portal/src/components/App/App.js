@@ -1,10 +1,10 @@
-import { Layout } from "../../Pages/Layout/Layout";
+import {Layout} from "..//../Pages/Functional/Layout/Layout"
 import { Route, Routes } from "react-router-dom";
-import { Persons } from "../../Pages/Persons/Persons";
-import { Movies } from "../../Pages/Movies/Movies";
-import { PersonDetails } from "../../Pages/PersonDetails/PersonDetails";
-import { MovieDetails } from "../../Pages/MovieDetails/MovieDetails";
-import { ErrorBoundary } from "../../Pages/ErrorBoundary/ErrorBoundary";
+import { Persons } from "..//../Pages/Actors/Persons/Persons";
+import { Movies } from "../../Pages/Films/Movies/Movies";
+import { PersonDetails } from "../../Pages/Actors/PersonDetails/PersonDetails";
+import { MovieDetails } from "../../Pages/Films/MovieDetails/MovieDetails";
+import { ErrorBoundary } from "../../Pages/Functional/ErrorBoundary/ErrorBoundary";
 import "./App.style.css";
 
 function App() {
