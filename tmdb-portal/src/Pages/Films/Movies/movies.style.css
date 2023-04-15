@@ -1,0 +1,42 @@
+.search-style {
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.box-menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-film {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+  width: 1000px;
+  margin-left: 5%;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 5px rgba(122, 122, 122, 0.5);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 0;
+  padding: 15px;
+  padding-left: 40px;
+}
+
+.backgr-films {
+  background-size: cover;
+}
+
+.style-paginations {
+  background-color: white;
+  padding: 5px;
+  color: white;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

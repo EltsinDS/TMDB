@@ -1,0 +1,47 @@
+.box-one-film {
+  display: flex;
+  color: black;
+  margin: 20px;
+  background-color: white;
+  border: solid 1px transparent;
+  border-radius: 25px;
+  padding: 25px;
+}
+.box-one-film img {
+  width: 550px;
+  height: 630px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(122, 122, 122, 0.5);
+}
+
+.box-descrip-film {
+  margin-left: 20px;
+}
+
+.style-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.style-tag {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.style-rating {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.style-box-detail {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.style-descrip {
+  font-size: 20px;
+  margin-right: 40%;
+}

@@ -1,0 +1,35 @@
+.box-about-person {
+  display: flex;
+  color: black;
+  margin: 20px;
+  background-color: white;
+  border: solid 1px transparent;
+  border-radius: 25px;
+}
+
+.photo-actor {
+  margin: 15px;
+}
+.photo-actor img {
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(122, 122, 122, 0.5);
+}
+
+.descrip-actor {
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.name-actor {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.birthday-actor {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
